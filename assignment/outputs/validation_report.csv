@@ -1,0 +1,170 @@
+month,rule_id,rule,severity,rows_flagged,pct_of_rows,action
+2025-07,F01,pickup_outside_file_month,FAIL,13,0.027,excluded from all metrics
+2025-07,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2025-07,F03,negative_total_amount,FAIL,131,0.272,excluded from all metrics
+2025-07,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2025-07,W01,zero_duration,WARN,40,0.083,"kept, left out of duration and speed metrics"
+2025-07,W02,duration_over_3h,WARN,223,0.463,"kept, left out of duration and speed metrics"
+2025-07,W03,zero_distance,WARN,1516,3.145,"kept, left out of duration and speed metrics"
+2025-07,W04,distance_over_100mi,WARN,15,0.031,"kept, left out of duration and speed metrics"
+2025-07,W05,speed_over_80mph,WARN,232,0.481,"kept, left out of duration and speed metrics"
+2025-07,W06,pickup_zone_unknown,WARN,161,0.334,"kept in volume, left out of the KPI denominator"
+2025-07,I01,trip_type_missing,INFO,5185,10.756,"counted as 'unclassified', not in the KPI denominator"
+2025-07,I02,passenger_count_missing_or_zero,INFO,5947,12.337,no action
+2025-07,I03,ratecode_missing_or_99,INFO,5185,10.756,no action
+2025-08,F01,pickup_outside_file_month,FAIL,23,0.05,excluded from all metrics
+2025-08,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2025-08,F03,negative_total_amount,FAIL,136,0.294,excluded from all metrics
+2025-08,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2025-08,W01,zero_duration,WARN,38,0.082,"kept, left out of duration and speed metrics"
+2025-08,W02,duration_over_3h,WARN,216,0.466,"kept, left out of duration and speed metrics"
+2025-08,W03,zero_distance,WARN,1461,3.155,"kept, left out of duration and speed metrics"
+2025-08,W04,distance_over_100mi,WARN,12,0.026,"kept, left out of duration and speed metrics"
+2025-08,W05,speed_over_80mph,WARN,247,0.533,"kept, left out of duration and speed metrics"
+2025-08,W06,pickup_zone_unknown,WARN,195,0.421,"kept in volume, left out of the KPI denominator"
+2025-08,I01,trip_type_missing,INFO,4743,10.243,"counted as 'unclassified', not in the KPI denominator"
+2025-08,I02,passenger_count_missing_or_zero,INFO,5424,11.713,no action
+2025-08,I03,ratecode_missing_or_99,INFO,4743,10.243,no action
+2025-09,F01,pickup_outside_file_month,FAIL,33,0.067,excluded from all metrics
+2025-09,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2025-09,F03,negative_total_amount,FAIL,119,0.243,excluded from all metrics
+2025-09,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2025-09,W01,zero_duration,WARN,51,0.104,"kept, left out of duration and speed metrics"
+2025-09,W02,duration_over_3h,WARN,150,0.307,"kept, left out of duration and speed metrics"
+2025-09,W03,zero_distance,WARN,1448,2.962,"kept, left out of duration and speed metrics"
+2025-09,W04,distance_over_100mi,WARN,12,0.025,"kept, left out of duration and speed metrics"
+2025-09,W05,speed_over_80mph,WARN,202,0.413,"kept, left out of duration and speed metrics"
+2025-09,W06,pickup_zone_unknown,WARN,146,0.299,"kept in volume, left out of the KPI denominator"
+2025-09,I01,trip_type_missing,INFO,5408,11.061,"counted as 'unclassified', not in the KPI denominator"
+2025-09,I02,passenger_count_missing_or_zero,INFO,6118,12.513,no action
+2025-09,I03,ratecode_missing_or_99,INFO,5408,11.061,no action
+2025-10,F01,pickup_outside_file_month,FAIL,21,0.042,excluded from all metrics
+2025-10,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2025-10,F03,negative_total_amount,FAIL,131,0.265,excluded from all metrics
+2025-10,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2025-10,W01,zero_duration,WARN,29,0.059,"kept, left out of duration and speed metrics"
+2025-10,W02,duration_over_3h,WARN,199,0.403,"kept, left out of duration and speed metrics"
+2025-10,W03,zero_distance,WARN,1605,3.248,"kept, left out of duration and speed metrics"
+2025-10,W04,distance_over_100mi,WARN,17,0.034,"kept, left out of duration and speed metrics"
+2025-10,W05,speed_over_80mph,WARN,198,0.401,"kept, left out of duration and speed metrics"
+2025-10,W06,pickup_zone_unknown,WARN,175,0.354,"kept in volume, left out of the KPI denominator"
+2025-10,I01,trip_type_missing,INFO,5017,10.153,"counted as 'unclassified', not in the KPI denominator"
+2025-10,I02,passenger_count_missing_or_zero,INFO,5717,11.569,no action
+2025-10,I03,ratecode_missing_or_99,INFO,5017,10.153,no action
+2025-11,F01,pickup_outside_file_month,FAIL,21,0.045,excluded from all metrics
+2025-11,F02,dropoff_before_pickup,FAIL,3,0.006,excluded from all metrics
+2025-11,F03,negative_total_amount,FAIL,143,0.305,excluded from all metrics
+2025-11,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2025-11,W01,zero_duration,WARN,40,0.085,"kept, left out of duration and speed metrics"
+2025-11,W02,duration_over_3h,WARN,190,0.405,"kept, left out of duration and speed metrics"
+2025-11,W03,zero_distance,WARN,1494,3.185,"kept, left out of duration and speed metrics"
+2025-11,W04,distance_over_100mi,WARN,21,0.045,"kept, left out of duration and speed metrics"
+2025-11,W05,speed_over_80mph,WARN,191,0.407,"kept, left out of duration and speed metrics"
+2025-11,W06,pickup_zone_unknown,WARN,116,0.247,"kept in volume, left out of the KPI denominator"
+2025-11,I01,trip_type_missing,INFO,5570,11.873,"counted as 'unclassified', not in the KPI denominator"
+2025-11,I02,passenger_count_missing_or_zero,INFO,6181,13.176,no action
+2025-11,I03,ratecode_missing_or_99,INFO,5570,11.873,no action
+2025-12,F01,pickup_outside_file_month,FAIL,26,0.054,excluded from all metrics
+2025-12,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2025-12,F03,negative_total_amount,FAIL,162,0.336,excluded from all metrics
+2025-12,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2025-12,W01,zero_duration,WARN,36,0.075,"kept, left out of duration and speed metrics"
+2025-12,W02,duration_over_3h,WARN,250,0.518,"kept, left out of duration and speed metrics"
+2025-12,W03,zero_distance,WARN,1580,3.276,"kept, left out of duration and speed metrics"
+2025-12,W04,distance_over_100mi,WARN,23,0.048,"kept, left out of duration and speed metrics"
+2025-12,W05,speed_over_80mph,WARN,189,0.392,"kept, left out of duration and speed metrics"
+2025-12,W06,pickup_zone_unknown,WARN,131,0.272,"kept in volume, left out of the KPI denominator"
+2025-12,I01,trip_type_missing,INFO,5844,12.115,"counted as 'unclassified', not in the KPI denominator"
+2025-12,I02,passenger_count_missing_or_zero,INFO,6499,13.473,no action
+2025-12,I03,ratecode_missing_or_99,INFO,5844,12.115,no action
+2026-01,F01,pickup_outside_file_month,FAIL,22,0.055,excluded from all metrics
+2026-01,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2026-01,F03,negative_total_amount,FAIL,120,0.298,excluded from all metrics
+2026-01,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2026-01,W01,zero_duration,WARN,29,0.072,"kept, left out of duration and speed metrics"
+2026-01,W02,duration_over_3h,WARN,136,0.338,"kept, left out of duration and speed metrics"
+2026-01,W03,zero_distance,WARN,1290,3.203,"kept, left out of duration and speed metrics"
+2026-01,W04,distance_over_100mi,WARN,7,0.017,"kept, left out of duration and speed metrics"
+2026-01,W05,speed_over_80mph,WARN,144,0.358,"kept, left out of duration and speed metrics"
+2026-01,W06,pickup_zone_unknown,WARN,130,0.323,"kept in volume, left out of the KPI denominator"
+2026-01,I01,trip_type_missing,INFO,5415,13.446,"counted as 'unclassified', not in the KPI denominator"
+2026-01,I02,passenger_count_missing_or_zero,INFO,5976,14.839,no action
+2026-01,I03,ratecode_missing_or_99,INFO,5415,13.446,no action
+2026-02,F01,pickup_outside_file_month,FAIL,11,0.029,excluded from all metrics
+2026-02,F02,dropoff_before_pickup,FAIL,1,0.003,excluded from all metrics
+2026-02,F03,negative_total_amount,FAIL,108,0.289,excluded from all metrics
+2026-02,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2026-02,W01,zero_duration,WARN,24,0.064,"kept, left out of duration and speed metrics"
+2026-02,W02,duration_over_3h,WARN,135,0.361,"kept, left out of duration and speed metrics"
+2026-02,W03,zero_distance,WARN,1388,3.714,"kept, left out of duration and speed metrics"
+2026-02,W04,distance_over_100mi,WARN,12,0.032,"kept, left out of duration and speed metrics"
+2026-02,W05,speed_over_80mph,WARN,151,0.404,"kept, left out of duration and speed metrics"
+2026-02,W06,pickup_zone_unknown,WARN,124,0.332,"kept in volume, left out of the KPI denominator"
+2026-02,I01,trip_type_missing,INFO,5388,14.417,"counted as 'unclassified', not in the KPI denominator"
+2026-02,I02,passenger_count_missing_or_zero,INFO,5954,15.931,no action
+2026-02,I03,ratecode_missing_or_99,INFO,5388,14.417,no action
+2026-03,F01,pickup_outside_file_month,FAIL,9,0.02,excluded from all metrics
+2026-03,F02,dropoff_before_pickup,FAIL,1,0.002,excluded from all metrics
+2026-03,F03,negative_total_amount,FAIL,113,0.256,excluded from all metrics
+2026-03,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2026-03,W01,zero_duration,WARN,34,0.077,"kept, left out of duration and speed metrics"
+2026-03,W02,duration_over_3h,WARN,197,0.446,"kept, left out of duration and speed metrics"
+2026-03,W03,zero_distance,WARN,1428,3.23,"kept, left out of duration and speed metrics"
+2026-03,W04,distance_over_100mi,WARN,11,0.025,"kept, left out of duration and speed metrics"
+2026-03,W05,speed_over_80mph,WARN,145,0.328,"kept, left out of duration and speed metrics"
+2026-03,W06,pickup_zone_unknown,WARN,140,0.317,"kept in volume, left out of the KPI denominator"
+2026-03,I01,trip_type_missing,INFO,6692,15.138,"counted as 'unclassified', not in the KPI denominator"
+2026-03,I02,passenger_count_missing_or_zero,INFO,7276,16.459,no action
+2026-03,I03,ratecode_missing_or_99,INFO,6692,15.138,no action
+2026-04,F01,pickup_outside_file_month,FAIL,3,0.007,excluded from all metrics
+2026-04,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2026-04,F03,negative_total_amount,FAIL,155,0.35,excluded from all metrics
+2026-04,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2026-04,W01,zero_duration,WARN,38,0.086,"kept, left out of duration and speed metrics"
+2026-04,W02,duration_over_3h,WARN,208,0.47,"kept, left out of duration and speed metrics"
+2026-04,W03,zero_distance,WARN,1604,3.626,"kept, left out of duration and speed metrics"
+2026-04,W04,distance_over_100mi,WARN,9,0.02,"kept, left out of duration and speed metrics"
+2026-04,W05,speed_over_80mph,WARN,156,0.353,"kept, left out of duration and speed metrics"
+2026-04,W06,pickup_zone_unknown,WARN,139,0.314,"kept in volume, left out of the KPI denominator"
+2026-04,I01,trip_type_missing,INFO,6290,14.219,"counted as 'unclassified', not in the KPI denominator"
+2026-04,I02,passenger_count_missing_or_zero,INFO,6833,15.446,no action
+2026-04,I03,ratecode_missing_or_99,INFO,6290,14.219,no action
+2026-05,F01,pickup_outside_file_month,FAIL,10,0.022,excluded from all metrics
+2026-05,F02,dropoff_before_pickup,FAIL,0,0.0,excluded from all metrics
+2026-05,F03,negative_total_amount,FAIL,123,0.274,excluded from all metrics
+2026-05,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2026-05,W01,zero_duration,WARN,27,0.06,"kept, left out of duration and speed metrics"
+2026-05,W02,duration_over_3h,WARN,212,0.472,"kept, left out of duration and speed metrics"
+2026-05,W03,zero_distance,WARN,1560,3.473,"kept, left out of duration and speed metrics"
+2026-05,W04,distance_over_100mi,WARN,11,0.024,"kept, left out of duration and speed metrics"
+2026-05,W05,speed_over_80mph,WARN,151,0.336,"kept, left out of duration and speed metrics"
+2026-05,W06,pickup_zone_unknown,WARN,165,0.367,"kept in volume, left out of the KPI denominator"
+2026-05,I01,trip_type_missing,INFO,5772,12.849,"counted as 'unclassified', not in the KPI denominator"
+2026-05,I02,passenger_count_missing_or_zero,INFO,6372,14.185,no action
+2026-05,I03,ratecode_missing_or_99,INFO,5772,12.849,no action
+2026-06,F01,pickup_outside_file_month,FAIL,13,0.029,excluded from all metrics
+2026-06,F02,dropoff_before_pickup,FAIL,3,0.007,excluded from all metrics
+2026-06,F03,negative_total_amount,FAIL,108,0.245,excluded from all metrics
+2026-06,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+2026-06,W01,zero_duration,WARN,30,0.068,"kept, left out of duration and speed metrics"
+2026-06,W02,duration_over_3h,WARN,163,0.369,"kept, left out of duration and speed metrics"
+2026-06,W03,zero_distance,WARN,1492,3.378,"kept, left out of duration and speed metrics"
+2026-06,W04,distance_over_100mi,WARN,11,0.025,"kept, left out of duration and speed metrics"
+2026-06,W05,speed_over_80mph,WARN,158,0.358,"kept, left out of duration and speed metrics"
+2026-06,W06,pickup_zone_unknown,WARN,151,0.342,"kept in volume, left out of the KPI denominator"
+2026-06,I01,trip_type_missing,INFO,6472,14.655,"counted as 'unclassified', not in the KPI denominator"
+2026-06,I02,passenger_count_missing_or_zero,INFO,7032,15.923,no action
+2026-06,I03,ratecode_missing_or_99,INFO,6472,14.655,no action
+ALL,F01,pickup_outside_file_month,FAIL,205,0.038,excluded from all metrics
+ALL,F02,dropoff_before_pickup,FAIL,8,0.001,excluded from all metrics
+ALL,F03,negative_total_amount,FAIL,1549,0.285,excluded from all metrics
+ALL,F04,pickup_zone_not_in_lookup,FAIL,0,0.0,excluded from all metrics
+ALL,I01,trip_type_missing,INFO,67796,12.482,"counted as 'unclassified', not in the KPI denominator"
+ALL,I02,passenger_count_missing_or_zero,INFO,75329,13.869,no action
+ALL,I03,ratecode_missing_or_99,INFO,67796,12.482,no action
+ALL,W01,zero_duration,WARN,416,0.077,"kept, left out of duration and speed metrics"
+ALL,W02,duration_over_3h,WARN,2279,0.42,"kept, left out of duration and speed metrics"
+ALL,W03,zero_distance,WARN,17866,3.289,"kept, left out of duration and speed metrics"
+ALL,W04,distance_over_100mi,WARN,161,0.03,"kept, left out of duration and speed metrics"
+ALL,W05,speed_over_80mph,WARN,2164,0.398,"kept, left out of duration and speed metrics"
+ALL,W06,pickup_zone_unknown,WARN,1773,0.326,"kept in volume, left out of the KPI denominator"

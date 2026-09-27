@@ -1,0 +1,147 @@
+2026-09-25 13:52:13,461 | INFO | Pipeline started | run_date=2026-09-22 chaos=none
+2026-09-25 13:52:14,473 | INFO | Starting local mock dispatch API
+2026-09-25 13:52:15,000 | INFO | Mock dispatch API is healthy
+2026-09-25 13:52:15,028 | INFO | Extracted local sources | orders=1603 interactions=497 interventions=430
+2026-09-25 13:52:15,036 | INFO | Fetched dispatch API page | page=1 rows=200 cumulative=200
+2026-09-25 13:52:15,040 | INFO | Fetched dispatch API page | page=2 rows=200 cumulative=400
+2026-09-25 13:52:15,042 | WARNING | Retryable dispatch API failure | page=3 status=500 attempt=1/3 wait=1.0s
+2026-09-25 13:52:16,062 | INFO | Fetched dispatch API page | page=3 rows=200 cumulative=600
+2026-09-25 13:52:16,070 | INFO | Fetched dispatch API page | page=4 rows=200 cumulative=800
+2026-09-25 13:52:16,074 | WARNING | Retryable dispatch API failure | page=5 status=429 attempt=1/3 wait=1.0s
+2026-09-25 13:52:17,093 | INFO | Fetched dispatch API page | page=5 rows=200 cumulative=1000
+2026-09-25 13:52:17,101 | INFO | Fetched dispatch API page | page=6 rows=200 cumulative=1200
+2026-09-25 13:52:17,109 | INFO | Fetched dispatch API page | page=7 rows=200 cumulative=1400
+2026-09-25 13:52:17,115 | INFO | Fetched dispatch API page | page=8 rows=200 cumulative=1600
+2026-09-25 13:52:17,115 | INFO | Dispatch extraction complete | records=1600 expected=1600
+2026-09-25 13:52:17,126 | INFO | Validation | check=orders.required_columns status=PASS detail=8 required columns present
+2026-09-25 13:52:17,126 | INFO | Validation | check=orders.order_id_uniqueness status=WARN detail=duplicate rows involved=6
+2026-09-25 13:52:17,126 | INFO | Validation | check=orders.delivered_completion_timestamp status=WARN detail=delivered rows missing actual_delivery_at=37
+2026-09-25 13:52:17,126 | INFO | Validation | check=orders.freshness status=PASS detail=latest_created_at=2026-08-28 23:33:00; age_days=25
+2026-09-25 13:52:17,126 | INFO | Validation | check=dispatch.required_columns status=PASS detail=2 required columns present
+2026-09-25 13:52:17,132 | INFO | Cleaned orders | input_rows=1603 output_rows=1600 deduplicated=3
+2026-09-25 13:52:17,152 | INFO | Built order journey | rows=1600 columns=21
+2026-09-25 13:52:17,166 | INFO | Saved outputs | partition=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22 journey=order_journey.csv metrics=metrics.json
+2026-09-25 13:52:17,166 | INFO | Pipeline completed successfully | rows=1600 output=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22/order_journey.csv
+2026-09-25 13:52:17,456 | INFO | Pipeline started | run_date=2026-09-22 chaos=none
+2026-09-25 13:52:18,466 | INFO | Starting local mock dispatch API
+2026-09-25 13:52:18,993 | INFO | Mock dispatch API is healthy
+2026-09-25 13:52:19,028 | INFO | Extracted local sources | orders=1603 interactions=497 interventions=430
+2026-09-25 13:52:19,034 | INFO | Fetched dispatch API page | page=1 rows=200 cumulative=200
+2026-09-25 13:52:19,039 | INFO | Fetched dispatch API page | page=2 rows=200 cumulative=400
+2026-09-25 13:52:19,040 | WARNING | Retryable dispatch API failure | page=3 status=500 attempt=1/3 wait=1.0s
+2026-09-25 13:52:20,061 | INFO | Fetched dispatch API page | page=3 rows=200 cumulative=600
+2026-09-25 13:52:20,069 | INFO | Fetched dispatch API page | page=4 rows=200 cumulative=800
+2026-09-25 13:52:20,073 | WARNING | Retryable dispatch API failure | page=5 status=429 attempt=1/3 wait=1.0s
+2026-09-25 13:52:21,093 | INFO | Fetched dispatch API page | page=5 rows=200 cumulative=1000
+2026-09-25 13:52:21,101 | INFO | Fetched dispatch API page | page=6 rows=200 cumulative=1200
+2026-09-25 13:52:21,109 | INFO | Fetched dispatch API page | page=7 rows=200 cumulative=1400
+2026-09-25 13:52:21,115 | INFO | Fetched dispatch API page | page=8 rows=200 cumulative=1600
+2026-09-25 13:52:21,116 | INFO | Dispatch extraction complete | records=1600 expected=1600
+2026-09-25 13:52:21,127 | INFO | Validation | check=orders.required_columns status=PASS detail=8 required columns present
+2026-09-25 13:52:21,127 | INFO | Validation | check=orders.order_id_uniqueness status=WARN detail=duplicate rows involved=6
+2026-09-25 13:52:21,127 | INFO | Validation | check=orders.delivered_completion_timestamp status=WARN detail=delivered rows missing actual_delivery_at=37
+2026-09-25 13:52:21,127 | INFO | Validation | check=orders.freshness status=PASS detail=latest_created_at=2026-08-28 23:33:00; age_days=25
+2026-09-25 13:52:21,127 | INFO | Validation | check=dispatch.required_columns status=PASS detail=2 required columns present
+2026-09-25 13:52:21,133 | INFO | Cleaned orders | input_rows=1603 output_rows=1600 deduplicated=3
+2026-09-25 13:52:21,153 | INFO | Built order journey | rows=1600 columns=21
+2026-09-25 13:52:21,166 | INFO | Saved outputs | partition=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22 journey=order_journey.csv metrics=metrics.json
+2026-09-25 13:52:21,166 | INFO | Pipeline completed successfully | rows=1600 output=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22/order_journey.csv
+2026-09-25 13:52:21,459 | INFO | Pipeline started | run_date=2026-09-22 chaos=missing_column
+2026-09-25 13:52:22,472 | INFO | Starting local mock dispatch API
+2026-09-25 13:52:23,000 | INFO | Mock dispatch API is healthy
+2026-09-25 13:52:23,031 | INFO | Extracted local sources | orders=1603 interactions=497 interventions=430
+2026-09-25 13:52:23,031 | WARNING | CHAOS: dropping promised_eta to simulate schema break
+2026-09-25 13:52:23,040 | INFO | Fetched dispatch API page | page=1 rows=200 cumulative=200
+2026-09-25 13:52:23,044 | INFO | Fetched dispatch API page | page=2 rows=200 cumulative=400
+2026-09-25 13:52:23,046 | WARNING | Retryable dispatch API failure | page=3 status=500 attempt=1/3 wait=1.0s
+2026-09-25 13:52:24,066 | INFO | Fetched dispatch API page | page=3 rows=200 cumulative=600
+2026-09-25 13:52:24,075 | INFO | Fetched dispatch API page | page=4 rows=200 cumulative=800
+2026-09-25 13:52:24,078 | WARNING | Retryable dispatch API failure | page=5 status=429 attempt=1/3 wait=1.0s
+2026-09-25 13:52:25,094 | INFO | Fetched dispatch API page | page=5 rows=200 cumulative=1000
+2026-09-25 13:52:25,102 | INFO | Fetched dispatch API page | page=6 rows=200 cumulative=1200
+2026-09-25 13:52:25,110 | INFO | Fetched dispatch API page | page=7 rows=200 cumulative=1400
+2026-09-25 13:52:25,116 | INFO | Fetched dispatch API page | page=8 rows=200 cumulative=1600
+2026-09-25 13:52:25,116 | INFO | Dispatch extraction complete | records=1600 expected=1600
+2026-09-25 13:52:25,120 | ERROR | Pipeline stopped at validation gate | error=orders: missing required columns: ['promised_eta'] | no processed output written
+2026-09-25 13:52:25,420 | INFO | Pipeline started | run_date=2026-09-22 chaos=duplicate_order
+2026-09-25 13:52:26,435 | INFO | Starting local mock dispatch API
+2026-09-25 13:52:26,961 | INFO | Mock dispatch API is healthy
+2026-09-25 13:52:26,974 | INFO | Extracted local sources | orders=1603 interactions=497 interventions=430
+2026-09-25 13:52:26,974 | WARNING | CHAOS: injecting additional duplicate order
+2026-09-25 13:52:26,979 | INFO | Fetched dispatch API page | page=1 rows=200 cumulative=200
+2026-09-25 13:52:26,981 | INFO | Fetched dispatch API page | page=2 rows=200 cumulative=400
+2026-09-25 13:52:26,982 | WARNING | Retryable dispatch API failure | page=3 status=500 attempt=1/3 wait=1.0s
+2026-09-25 13:52:28,002 | INFO | Fetched dispatch API page | page=3 rows=200 cumulative=600
+2026-09-25 13:52:28,011 | INFO | Fetched dispatch API page | page=4 rows=200 cumulative=800
+2026-09-25 13:52:28,014 | WARNING | Retryable dispatch API failure | page=5 status=429 attempt=1/3 wait=1.0s
+2026-09-25 13:52:29,034 | INFO | Fetched dispatch API page | page=5 rows=200 cumulative=1000
+2026-09-25 13:52:29,041 | INFO | Fetched dispatch API page | page=6 rows=200 cumulative=1200
+2026-09-25 13:52:29,048 | INFO | Fetched dispatch API page | page=7 rows=200 cumulative=1400
+2026-09-25 13:52:29,055 | INFO | Fetched dispatch API page | page=8 rows=200 cumulative=1600
+2026-09-25 13:52:29,055 | INFO | Dispatch extraction complete | records=1600 expected=1600
+2026-09-25 13:52:29,066 | INFO | Validation | check=orders.required_columns status=PASS detail=8 required columns present
+2026-09-25 13:52:29,066 | INFO | Validation | check=orders.order_id_uniqueness status=WARN detail=duplicate rows involved=8
+2026-09-25 13:52:29,066 | INFO | Validation | check=orders.delivered_completion_timestamp status=WARN detail=delivered rows missing actual_delivery_at=37
+2026-09-25 13:52:29,066 | INFO | Validation | check=orders.freshness status=PASS detail=latest_created_at=2026-08-28 23:33:00; age_days=25
+2026-09-25 13:52:29,066 | INFO | Validation | check=dispatch.required_columns status=PASS detail=2 required columns present
+2026-09-25 13:52:29,072 | INFO | Cleaned orders | input_rows=1604 output_rows=1600 deduplicated=4
+2026-09-25 13:52:29,092 | INFO | Built order journey | rows=1600 columns=21
+2026-09-25 13:52:29,105 | INFO | Saved outputs | partition=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22 journey=order_journey.csv metrics=metrics.json
+2026-09-25 13:52:29,105 | INFO | Pipeline completed successfully | rows=1600 output=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22/order_journey.csv
+2026-09-25 13:52:29,387 | INFO | Pipeline started | run_date=2026-09-22 chaos=stale_data
+2026-09-25 13:52:30,401 | INFO | Starting local mock dispatch API
+2026-09-25 13:52:30,928 | INFO | Mock dispatch API is healthy
+2026-09-25 13:52:30,959 | INFO | Extracted local sources | orders=1603 interactions=497 interventions=430
+2026-09-25 13:52:30,959 | WARNING | CHAOS: shifting created_at backward by 365 days
+2026-09-25 13:52:30,969 | INFO | Fetched dispatch API page | page=1 rows=200 cumulative=200
+2026-09-25 13:52:30,973 | INFO | Fetched dispatch API page | page=2 rows=200 cumulative=400
+2026-09-25 13:52:30,975 | WARNING | Retryable dispatch API failure | page=3 status=500 attempt=1/3 wait=1.0s
+2026-09-25 13:52:31,995 | INFO | Fetched dispatch API page | page=3 rows=200 cumulative=600
+2026-09-25 13:52:32,002 | INFO | Fetched dispatch API page | page=4 rows=200 cumulative=800
+2026-09-25 13:52:32,006 | WARNING | Retryable dispatch API failure | page=5 status=429 attempt=1/3 wait=1.0s
+2026-09-25 13:52:33,024 | INFO | Fetched dispatch API page | page=5 rows=200 cumulative=1000
+2026-09-25 13:52:33,031 | INFO | Fetched dispatch API page | page=6 rows=200 cumulative=1200
+2026-09-25 13:52:33,036 | INFO | Fetched dispatch API page | page=7 rows=200 cumulative=1400
+2026-09-25 13:52:33,042 | INFO | Fetched dispatch API page | page=8 rows=200 cumulative=1600
+2026-09-25 13:52:33,042 | INFO | Dispatch extraction complete | records=1600 expected=1600
+2026-09-25 13:52:33,053 | ERROR | Pipeline stopped at validation gate | error=orders data is stale: latest_created_at=2025-08-28 23:33:00, age_days=390, allowed=60 | no processed output written
+2026-09-25 13:52:33,347 | INFO | Pipeline started | run_date=2026-09-22 chaos=none
+2026-09-25 13:52:34,362 | INFO | Starting local mock dispatch API
+2026-09-25 13:52:34,891 | INFO | Mock dispatch API is healthy
+2026-09-25 13:52:34,921 | INFO | Extracted local sources | orders=1603 interactions=497 interventions=430
+2026-09-25 13:52:34,927 | INFO | Fetched dispatch API page | page=1 rows=200 cumulative=200
+2026-09-25 13:52:34,932 | INFO | Fetched dispatch API page | page=2 rows=200 cumulative=400
+2026-09-25 13:52:34,933 | WARNING | Retryable dispatch API failure | page=3 status=500 attempt=1/3 wait=1.0s
+2026-09-25 13:52:35,953 | INFO | Fetched dispatch API page | page=3 rows=200 cumulative=600
+2026-09-25 13:52:35,961 | INFO | Fetched dispatch API page | page=4 rows=200 cumulative=800
+2026-09-25 13:52:35,963 | WARNING | Retryable dispatch API failure | page=5 status=429 attempt=1/3 wait=1.0s
+2026-09-25 13:52:36,980 | INFO | Fetched dispatch API page | page=5 rows=200 cumulative=1000
+2026-09-25 13:52:36,988 | INFO | Fetched dispatch API page | page=6 rows=200 cumulative=1200
+2026-09-25 13:52:36,995 | INFO | Fetched dispatch API page | page=7 rows=200 cumulative=1400
+2026-09-25 13:52:37,002 | INFO | Fetched dispatch API page | page=8 rows=200 cumulative=1600
+2026-09-25 13:52:37,002 | INFO | Dispatch extraction complete | records=1600 expected=1600
+2026-09-25 13:52:37,013 | ERROR | Pipeline stopped at validation gate | error=orders data is stale: latest_created_at=2026-08-28 23:33:00, age_days=25, allowed=20 | no processed output written
+2026-09-25 13:52:37,310 | INFO | Pipeline started | run_date=2026-09-22 chaos=none
+2026-09-25 13:52:38,326 | INFO | Starting local mock dispatch API
+2026-09-25 13:52:38,851 | INFO | Mock dispatch API is healthy
+2026-09-25 13:52:38,881 | INFO | Extracted local sources | orders=1603 interactions=497 interventions=430
+2026-09-25 13:52:38,887 | INFO | Fetched dispatch API page | page=1 rows=200 cumulative=200
+2026-09-25 13:52:38,892 | INFO | Fetched dispatch API page | page=2 rows=200 cumulative=400
+2026-09-25 13:52:38,894 | WARNING | Retryable dispatch API failure | page=3 status=500 attempt=1/3 wait=1.0s
+2026-09-25 13:52:39,915 | INFO | Fetched dispatch API page | page=3 rows=200 cumulative=600
+2026-09-25 13:52:39,923 | INFO | Fetched dispatch API page | page=4 rows=200 cumulative=800
+2026-09-25 13:52:39,927 | WARNING | Retryable dispatch API failure | page=5 status=429 attempt=1/3 wait=1.0s
+2026-09-25 13:52:40,948 | INFO | Fetched dispatch API page | page=5 rows=200 cumulative=1000
+2026-09-25 13:52:40,957 | INFO | Fetched dispatch API page | page=6 rows=200 cumulative=1200
+2026-09-25 13:52:40,965 | INFO | Fetched dispatch API page | page=7 rows=200 cumulative=1400
+2026-09-25 13:52:40,971 | INFO | Fetched dispatch API page | page=8 rows=200 cumulative=1600
+2026-09-25 13:52:40,971 | INFO | Dispatch extraction complete | records=1600 expected=1600
+2026-09-25 13:52:40,982 | INFO | Validation | check=orders.required_columns status=PASS detail=8 required columns present
+2026-09-25 13:52:40,982 | INFO | Validation | check=orders.order_id_uniqueness status=WARN detail=duplicate rows involved=6
+2026-09-25 13:52:40,982 | INFO | Validation | check=orders.delivered_completion_timestamp status=WARN detail=delivered rows missing actual_delivery_at=37
+2026-09-25 13:52:40,982 | INFO | Validation | check=orders.freshness status=PASS detail=latest_created_at=2026-08-28 23:33:00; age_days=25
+2026-09-25 13:52:40,982 | INFO | Validation | check=dispatch.required_columns status=PASS detail=2 required columns present
+2026-09-25 13:52:40,988 | INFO | Cleaned orders | input_rows=1603 output_rows=1600 deduplicated=3
+2026-09-25 13:52:41,008 | INFO | Built order journey | rows=1600 columns=21
+2026-09-25 13:52:41,021 | INFO | Saved outputs | partition=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22 journey=order_journey.csv metrics=metrics.json
+2026-09-25 13:52:41,021 | INFO | Pipeline completed successfully | rows=1600 output=/Users/lingaraghavendra/Desktop/fde_assignment/Version_3/exercises/FlashEats_Classroom_Pack_V2/Class8_Project/data/processed/run_date=2026-09-22/order_journey.csv

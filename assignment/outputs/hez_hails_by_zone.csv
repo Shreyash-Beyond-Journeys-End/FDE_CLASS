@@ -1,0 +1,23 @@
+location_id,zone,zone_class,street_hails,pct_dropoff_in_yellow_zone
+43,Central Park,boundary,22278,89.3
+236,Upper East Side North,boundary,3410,82.3
+24,Bloomingdale,boundary,3078,61.0
+263,Yorkville West,boundary,393,62.6
+132,JFK Airport,clear_hez,116,0.9
+138,LaGuardia Airport,clear_hez,89,6.7
+262,Yorkville East,boundary,42,45.2
+194,Randalls Island,boundary,21,33.3
+151,Manhattan Valley,clear_hez,11,100.0
+238,Upper West Side North,clear_hez,8,87.5
+90,Flatiron,clear_hez,2,100.0
+140,Lenox Hill East,clear_hez,2,0.0
+143,Lincoln Square West,clear_hez,2,50.0
+1,Newark Airport,clear_hez,1,0.0
+68,East Chelsea,clear_hez,1,100.0
+141,Lenox Hill West,clear_hez,1,0.0
+142,Lincoln Square East,clear_hez,1,100.0
+162,Midtown East,clear_hez,1,0.0
+163,Midtown North,clear_hez,1,0.0
+234,Union Sq,clear_hez,1,100.0
+237,Upper East Side South,clear_hez,1,100.0
+239,Upper West Side South,clear_hez,1,100.0

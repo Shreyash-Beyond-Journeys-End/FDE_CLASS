@@ -1,0 +1,186 @@
+{
+  "api": {
+    "2025-07": {
+      "expected_rows": 239,
+      "page_sha256": [
+        "fedc3f75d200c0244d87201b667eb21ba0a7e2e405c2a6e987124461d482a400"
+      ],
+      "rows": 239
+    },
+    "2025-08": {
+      "expected_rows": 228,
+      "page_sha256": [
+        "e60f3b153ee50b93430bf99f58b46e9c9054a205c0983098424de3c56e05b0f9"
+      ],
+      "rows": 228
+    },
+    "2025-09": {
+      "expected_rows": 233,
+      "page_sha256": [
+        "b3b0b56d0ccd88f552a4ec9d6bdc5be116ac872be0e9acd324ef266bb2e4ab25"
+      ],
+      "rows": 233
+    },
+    "2025-10": {
+      "expected_rows": 230,
+      "page_sha256": [
+        "79738b63009a162aac05970e98055cb59a267dcf75fb85438b13b0fdd5293736"
+      ],
+      "rows": 230
+    },
+    "2025-11": {
+      "expected_rows": 230,
+      "page_sha256": [
+        "1edddde33c33a66ffcacf54dff46a0ab251d1277d14e6b766642e2f5d2294bc3"
+      ],
+      "rows": 230
+    },
+    "2025-12": {
+      "expected_rows": 228,
+      "page_sha256": [
+        "8f41f6c3629b57b05d89a7c296ec488a3788deffb21434530e7268dc5cd4e382"
+      ],
+      "rows": 228
+    },
+    "2026-01": {
+      "expected_rows": 232,
+      "page_sha256": [
+        "e3d6c8fcb9280c479e186710b8768402b667e6e7b31b870ada80f1957c0831e2"
+      ],
+      "rows": 232
+    },
+    "2026-02": {
+      "expected_rows": 229,
+      "page_sha256": [
+        "c7e46666e776b878bb0792e6bf8e7caa7179504f054d4351dfcffb876129bca7"
+      ],
+      "rows": 229
+    },
+    "2026-03": {
+      "expected_rows": 230,
+      "page_sha256": [
+        "1bcd731b54171e3b2989348b7fa46b515fc3ced3c734afb27acd879b59326c2c"
+      ],
+      "rows": 230
+    },
+    "2026-04": {
+      "expected_rows": 234,
+      "page_sha256": [
+        "4a0a30602c5abef94dd43d797a23ab2c914f95ce8778e0950f24f63da2eca693"
+      ],
+      "rows": 234
+    },
+    "2026-05": {
+      "expected_rows": 233,
+      "page_sha256": [
+        "b8b824313a533b2a770fab65135d5d1e7f40c934563438cedd56c08ca41d327e"
+      ],
+      "rows": 233
+    },
+    "2026-06": {
+      "expected_rows": 237,
+      "page_sha256": [
+        "d18816a81c2159264abe30e6cfa117fdc916b3e0bb5eb970f7f36da1f556dbb2"
+      ],
+      "rows": 237
+    }
+  },
+  "trip_files": {
+    "2025-07": {
+      "parquet_rows": 48205,
+      "remote_content_length": 1188380,
+      "sha256": "bbd6f9e5955570521df5c6dd40c1a75b37cccd730fcaff4fb50bcd32d2d35f69",
+      "size_bytes": 1188380,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-07.parquet"
+    },
+    "2025-08": {
+      "parquet_rows": 46306,
+      "remote_content_length": 1149707,
+      "sha256": "ebaab192c199b850b0244e10c90622e472c1d4f2851168f950c9f75fe8db18d1",
+      "size_bytes": 1149707,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-08.parquet"
+    },
+    "2025-09": {
+      "parquet_rows": 48893,
+      "remote_content_length": 1209831,
+      "sha256": "932ea2cb6a56f83c4389148ce73427b07a63106375b607a361cd107cf7a32042",
+      "size_bytes": 1209831,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-09.parquet"
+    },
+    "2025-10": {
+      "parquet_rows": 49416,
+      "remote_content_length": 1205685,
+      "sha256": "b124d57fb63fe610d085ce9ebef1528c082932313d86133a33d9c7a000883fe6",
+      "size_bytes": 1205685,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-10.parquet"
+    },
+    "2025-11": {
+      "parquet_rows": 46912,
+      "remote_content_length": 1164775,
+      "sha256": "efcd45635c7982aa7ac832e5922c2e5495ebb5ce44e35491fea58d63fa7eba05",
+      "size_bytes": 1164775,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-11.parquet"
+    },
+    "2025-12": {
+      "parquet_rows": 48236,
+      "remote_content_length": 1171145,
+      "sha256": "d1e9def5085c3be62dc8f827c9bbb6d32455b8ba69921d3e823d95435ab155fc",
+      "size_bytes": 1171145,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-12.parquet"
+    },
+    "2026-01": {
+      "parquet_rows": 40272,
+      "remote_content_length": 991656,
+      "sha256": "b0b188cd9ded91a9dfc931d9250aaca09fe388355d87802422707c6fc14762e0",
+      "size_bytes": 991656,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-01.parquet"
+    },
+    "2026-02": {
+      "parquet_rows": 37373,
+      "remote_content_length": 920753,
+      "sha256": "2f7e3f379b2a14d675aed7eb9318a663dfb290eb11dbc66efbee581b63c3c962",
+      "size_bytes": 920753,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-02.parquet"
+    },
+    "2026-03": {
+      "parquet_rows": 44208,
+      "remote_content_length": 1082530,
+      "sha256": "60c8bdfc0aa7826a2d6d2a6cca0f0e0dcb2d8aa7336212a45382794bb55b9cc0",
+      "size_bytes": 1082530,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-03.parquet"
+    },
+    "2026-04": {
+      "parquet_rows": 44238,
+      "remote_content_length": 1075896,
+      "sha256": "e8dd2a0afde3fe8be942dd638fe1d946f8edbe5b377cf6c1d645e1206b3c7662",
+      "size_bytes": 1075896,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-04.parquet"
+    },
+    "2026-05": {
+      "parquet_rows": 44921,
+      "remote_content_length": 1102947,
+      "sha256": "15ff57840a1103d49298ad244492730ca4236b4de0d2758a689ded08bc332752",
+      "size_bytes": 1102947,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-05.parquet"
+    },
+    "2026-06": {
+      "parquet_rows": 44163,
+      "remote_content_length": 1075836,
+      "sha256": "08e214dcb285cb5cecb183635080e817ca24f0c6491eb7d387513fbe38258f97",
+      "size_bytes": 1075836,
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2026-06.parquet"
+    }
+  },
+  "zone_lookup": {
+    "rows": 265,
+    "sha256": "1a99e105092230f8620f301edcca7f80d3080642ff404d28ed957d3fa222c8ed",
+    "size_bytes": 12331,
+    "url": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv"
+  },
+  "zone_shapes": {
+    "features": 263,
+    "sha256": "8e7c20c6abc39723aa6d69fc6ece21d446edb5c5886a11e67263fb50bd970ad1",
+    "size_bytes": 3886051,
+    "url": "https://data.cityofnewyork.us/resource/8meu-9t5y.geojson?$limit=500"
+  }
+}

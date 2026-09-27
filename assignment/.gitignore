@@ -1,0 +1,18 @@
+# local only
+loom_script.md
+notes/
+*_notes.md
+
+# data is downloaded by the pipeline (public TLC files), not committed
+data/raw/
+data/processed/
+logs/
+
+# python / jupyter / os
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.part

@@ -1,0 +1,64 @@
+zone,location_id,zone_class,hour_band,street_hails,hails_per_week
+Central Park,43,boundary,15-18,9738,186.8
+Central Park,43,boundary,11-14,6020,115.5
+Central Park,43,boundary,19-23,3567,68.4
+Central Park,43,boundary,07-10,2855,54.8
+Upper East Side North,236,boundary,15-18,1101,21.1
+Upper East Side North,236,boundary,07-10,982,18.8
+Bloomingdale,24,boundary,07-10,965,18.5
+Upper East Side North,236,boundary,11-14,880,16.9
+Bloomingdale,24,boundary,11-14,877,16.8
+Bloomingdale,24,boundary,15-18,744,14.3
+Bloomingdale,24,boundary,19-23,423,8.1
+Upper East Side North,236,boundary,19-23,394,7.6
+Yorkville West,263,boundary,07-10,149,2.9
+Central Park,43,boundary,00-06,98,1.9
+Yorkville West,263,boundary,15-18,84,1.6
+Yorkville West,263,boundary,11-14,74,1.4
+Bloomingdale,24,boundary,00-06,69,1.3
+Yorkville West,263,boundary,19-23,63,1.2
+Upper East Side North,236,boundary,00-06,53,1.0
+JFK Airport,132,clear_hez,11-14,35,0.7
+JFK Airport,132,clear_hez,15-18,34,0.7
+LaGuardia Airport,138,clear_hez,15-18,31,0.6
+Yorkville West,263,boundary,00-06,23,0.4
+LaGuardia Airport,138,clear_hez,11-14,22,0.4
+Yorkville East,262,boundary,11-14,19,0.4
+JFK Airport,132,clear_hez,00-06,16,0.3
+JFK Airport,132,clear_hez,07-10,16,0.3
+JFK Airport,132,clear_hez,19-23,15,0.3
+LaGuardia Airport,138,clear_hez,07-10,15,0.3
+LaGuardia Airport,138,clear_hez,19-23,14,0.3
+Yorkville East,262,boundary,07-10,10,0.2
+LaGuardia Airport,138,clear_hez,00-06,7,0.1
+Randalls Island,194,boundary,11-14,7,0.1
+Randalls Island,194,boundary,19-23,7,0.1
+Yorkville East,262,boundary,19-23,6,0.1
+Manhattan Valley,151,clear_hez,15-18,5,0.1
+Manhattan Valley,151,clear_hez,11-14,4,0.1
+Randalls Island,194,boundary,15-18,4,0.1
+Yorkville East,262,boundary,15-18,4,0.1
+Upper West Side North,238,clear_hez,07-10,3,0.1
+Yorkville East,262,boundary,00-06,3,0.1
+Randalls Island,194,boundary,07-10,2,0.0
+Upper West Side North,238,clear_hez,11-14,2,0.0
+Upper West Side North,238,clear_hez,15-18,2,0.0
+Newark Airport,1,clear_hez,00-06,1,0.0
+East Chelsea,68,clear_hez,19-23,1,0.0
+Flatiron,90,clear_hez,15-18,1,0.0
+Flatiron,90,clear_hez,19-23,1,0.0
+Lenox Hill East,140,clear_hez,00-06,1,0.0
+Lenox Hill East,140,clear_hez,15-18,1,0.0
+Lenox Hill West,141,clear_hez,15-18,1,0.0
+Lincoln Square East,142,clear_hez,19-23,1,0.0
+Lincoln Square West,143,clear_hez,15-18,1,0.0
+Lincoln Square West,143,clear_hez,19-23,1,0.0
+Manhattan Valley,151,clear_hez,07-10,1,0.0
+Manhattan Valley,151,clear_hez,19-23,1,0.0
+Midtown East,162,clear_hez,11-14,1,0.0
+Midtown North,163,clear_hez,15-18,1,0.0
+Randalls Island,194,boundary,00-06,1,0.0
+Union Sq,234,clear_hez,07-10,1,0.0
+Upper East Side South,237,clear_hez,11-14,1,0.0
+Upper West Side North,238,clear_hez,19-23,1,0.0
+Upper West Side South,239,clear_hez,11-14,1,0.0
